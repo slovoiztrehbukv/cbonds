@@ -13,5 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'TestController@index')->name('index');
+Route::get('/', 'ProductController@index')->name('home');
 
+Route::get('/get-prods', 'ProductController@getAllProductsAsJSON');
+
+Route::get('/task', 'TestController@index');

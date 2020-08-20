@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('title', 'Тестовое задание CBONDS')
+@section('title', 'CBONDS')
 
 @section('content')
 
