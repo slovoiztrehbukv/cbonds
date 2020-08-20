@@ -18,3 +18,7 @@ Route::get('/', 'ProductController@index')->name('home');
 Route::get('/get-prods', 'ProductController@getAllProductsAsJSON');
 
 Route::get('/task', 'TestController@index');
+
+Route::get('/add-product', 'TestController@index');
+
+Route::resource('products', 'ProductController');

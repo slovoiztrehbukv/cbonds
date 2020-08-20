@@ -2,7 +2,9 @@ require('./bootstrap')
 
 window.Vue = require('vue')
 
-import cbondsTableWrapper from './components/cbonds-table-wrapper'
+import cbondsWrapper from './components/common/cbonds-wrapper'
+import cbondsTask from './components/common/cbonds-task'
+import cbondsAddProductPanel from './components/common/cbonds-add-product-panel'
 
 import routes from './routes.js'
 
@@ -10,7 +12,9 @@ import routes from './routes.js'
 const vm = new Vue({
 	el: '#app',
 	components: {
-		cbondsTableWrapper
+		cbondsWrapper,
+		cbondsTask,
+		cbondsAddProductPanel
 	},
 	data: {
 		currentRoute: window.location.pathname

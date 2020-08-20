@@ -6,11 +6,6 @@
 
     <div class="container mainpage">
         <div class="content">
-
-            
-
-
-
         </div>
     </div>
 @endsection

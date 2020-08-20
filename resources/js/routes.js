@@ -1,5 +1,5 @@
   export default {
-  	'/': 'cbondsTableWrapper',
-  	'/new-product': 'cbondsNewProductPanel',
+  	'/': 'cbondsWrapper',
+  	'/add-product': 'cbondsAddProductPanel',
     '/task': 'cbondsTask'
   }
